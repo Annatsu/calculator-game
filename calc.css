@@ -1,0 +1,73 @@
+/**
+ * @Author: Brendon Pagano <Annatsu>
+ * @Date:   2017/08/29 23:54:47
+ * @Email:  brendonpagano@gmail.com
+ * @Filename: calc.css
+ * @Last modified by:   Annatsu
+ * @Last modified time: 2017/08/30 01:38:56
+ */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Helvetica';
+}
+
+#calculator {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 300px;
+  width: 300px;
+  background-color: #E4DCCF;
+  border-radius: 4px;
+  padding: 15px;
+}
+
+#calc-display-outter {
+  width: 100%;
+  background-color: #373C40;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+#level-n {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+#calc-display-inner {
+  background-color: #A6B8A2;
+  border-radius: 4px;
+  margin-top: 5px;
+  padding: 10px;
+}
+
+.calc-display-info {
+  position: relative;
+  display: inline-block;
+  min-width: 112.5px;
+  width: 112.5px;
+  background-color: #3D3D3D;
+  color: #A6B8A2;
+  border-radius: 4px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 5px;
+}
+
+#calc-display-result {
+  font-family: 'Orbitron', sans-serif;
+  color: #3D3D3D;
+  font-size: 30px;
+  margin-top: 5px;
+  float: right;
+}
+
+.clearfix:after {
+  content: '';
+  display: table;
+  clear: both;
+}
